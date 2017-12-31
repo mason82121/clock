@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="clock.css">
+
+  <title>CLOCK</title>
+</head>
+<body>
+  <div class="clock-box" id="c-c">
+    <div class="clock-box-2">
+      <div id="clock">
+         <div id="date">這裡是日期</div>
+        <div id="time">這裡是時間</div>
+        <h2>距離日本東京奧林匹克運動會</h2>
+         <p id="timer_japan" class="timer_japan">還有<span id="day_japan"></span>天<span id="hour_japan"></span>小時<span id="min_japan"></span>分<span id="sec_japan"></span>秒</p>
+        <div class="day-box"><span id="day">這裡是星期幾</span></div>
+      </div>
+      <div class="o-btn-box">
+        <a href="##" class="o-btn" onclick="start();"><i class="fa fa-power-off" aria-hidden="true"></i></a>
+        <a href="##" class="o-btn" onclick="stop();"><i class="fa fa-times" aria-hidden="true"></i></a>
+      </div>
+    </div>
+   </div>
+  <script src="clock.js"></script> 
+</body>
+</html>
+
